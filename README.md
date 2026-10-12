@@ -75,6 +75,16 @@ Training may take a while on a CPU. For a smaller test run, use `--n-train 10000
 
 The paper's comparison curves are stored in `paper_data/`. The digitisation utility can be run with `python digitize_paper.py ../Punnoose.pdf` when the original PDF is available; it requires `pypdf` and `pillow`.
 
+## Regression tests
+
+A small test suite checks that pose labels map back to their bin centres, out-of-range poses are clipped to edge bins, expected array shapes are retained, and soft estimates behave correctly. These checks do not require the trained model files.
+
+Run from the directory containing `simulate.py`:
+
+```bash
+python -m unittest discover -s tests -v
+```
+
 ## Project structure
 
 | File or directory | Purpose |
@@ -92,6 +102,7 @@ The paper's comparison curves are stored in `paper_data/`. The digitisation util
 | `digitize_paper.py`, `paper_data/` | Digitised reference curves from the paper |
 | `compare_paper.py` | Compares the simulation with the reference curves |
 | `visualize.py` | Displays detected and occluded features |
+| `tests/test_discretize.py` | Regression checks for pose conversions and soft estimates |
 | `models/` | Saved ANN and error-distribution files |
 | `results/` | Generated plots and summaries |
 
@@ -131,7 +142,11 @@ Before comparing results, record the Python version, installed package versions,
 
 ## Changes made in this repository
 
-Record your own work here as you make it, for example: **what changed, why it changed, how it was tested, and what the result was**. Do not claim an accuracy improvement or a new algorithm unless you have measured it.
+- Improved setup, execution, results, and reproducibility documentation.
+- Added regression tests for pose discretisation and soft pose estimation.
+- Preserved existing project files and the current result-image reference path.
+
+For any further changes, record **what changed, why it changed, how it was tested, and the measured result**. Do not claim an accuracy improvement or a new algorithm unless it has been measured.
 
 ## Reference
 
