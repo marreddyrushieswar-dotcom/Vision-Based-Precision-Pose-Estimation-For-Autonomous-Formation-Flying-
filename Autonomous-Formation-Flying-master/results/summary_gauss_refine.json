@@ -1,0 +1,65 @@
+{
+  "ANN only": {
+    "pos_rmse": 6.0176233922019495,
+    "pos_rmse_std": 0.032863304043113654,
+    "pos_mean": 5.7831235377193115,
+    "pos_mean_std": 0.02675580957520101,
+    "att_mean_deg": 5.043658945888419,
+    "att_mean_deg_std": 0.03389327517698012,
+    "n_runs": 10
+  },
+  "ANN only (softmax mean)": {
+    "pos_rmse": 3.0896370086038134,
+    "pos_rmse_std": 0.010392859778238653,
+    "pos_mean": 2.88292054203499,
+    "pos_mean_std": 0.01060156292762745,
+    "att_mean_deg": 2.853159260411299,
+    "att_mean_deg_std": 0.013439061006190377,
+    "n_runs": 10
+  },
+  "ANN + LM refine": {
+    "pos_rmse": 2.542700663218606,
+    "pos_rmse_std": 0.014379458379506037,
+    "pos_mean": 2.3854332061211894,
+    "pos_mean_std": 0.015108592770625423,
+    "att_mean_deg": 1.975029574355267,
+    "att_mean_deg_std": 0.003566827361005152,
+    "n_runs": 10
+  },
+  "PF N=1000, a=0.9 every 10 cycles": {
+    "pos_rmse": 2.756989985060048,
+    "pos_rmse_std": 1.085879599963672,
+    "pos_mean": 2.625885465454848,
+    "pos_mean_std": 0.9851147168055921,
+    "att_mean_deg": 4.729456208972061,
+    "att_mean_deg_std": 0.49377039178914456,
+    "n_runs": 10
+  },
+  "PF N=1000, a=0.9 every 10 cycles + LM refine": {
+    "pos_rmse": 2.542700852403088,
+    "pos_rmse_std": 0.014380104978100243,
+    "pos_mean": 2.3854332546986923,
+    "pos_mean_std": 0.015109216525998078,
+    "att_mean_deg": 1.9750293665660514,
+    "att_mean_deg_std": 0.0035662300998940107,
+    "n_runs": 10
+  },
+  "PF N=5000, a=0.9 every cycle": {
+    "pos_rmse": 2.05470076798052,
+    "pos_rmse_std": 0.5379371465563371,
+    "pos_mean": 1.8101242557498451,
+    "pos_mean_std": 0.38932880595680297,
+    "att_mean_deg": 3.6658702880201353,
+    "att_mean_deg_std": 0.05851327548445387,
+    "n_runs": 10
+  },
+  "PF N=5000, a=0.9 every cycle + LM refine": {
+    "pos_rmse": 2.5427004940361924,
+    "pos_rmse_std": 0.014380263749941459,
+    "pos_mean": 2.385432972317373,
+    "pos_mean_std": 0.015109603336389485,
+    "att_mean_deg": 1.9750291021441,
+    "att_mean_deg_std": 0.0035669911846452017,
+    "n_runs": 10
+  }
+}

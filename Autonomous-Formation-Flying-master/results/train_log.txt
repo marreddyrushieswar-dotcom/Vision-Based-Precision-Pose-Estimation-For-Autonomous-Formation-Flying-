@@ -1,0 +1,7 @@
+train: X(600000, 42) y(600000,)  occluded fraction = 0.150  distinct labels = 4800
+val: X(40000, 42) y(40000,)  occluded fraction = 0.150  distinct labels = 4797
+train (600000, 42), val (40000, 42), classes 4800
+epoch   1/20  train loss 4.8781  val acc 0.1357  (196.6s)
+epoch   2/20  train loss 3.2852  val acc 0.1946  (211.4s)
+epoch   3/20  train loss 2.8689  val acc 0.2303  (194.9s)
+epoch   4/20  train loss 2.6473  val acc 0.2452  (172.4s)
