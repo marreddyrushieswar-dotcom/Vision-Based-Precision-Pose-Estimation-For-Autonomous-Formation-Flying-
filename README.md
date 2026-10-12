@@ -65,7 +65,7 @@ each run) in `results/summary_*.json`; plots show the first run.
 | `visualize.py` | feature visualisation |
 
 ## Results (10 Monte-Carlo runs, mean ± std)
-![paper vs ours](results/paper_vs_ours_summary.png)
+![paper vs ours](Autonomous-Formation-Flying-master/results/paper_vs_ours_summary.png)
 
 Paper (digitised Figs. 9/10, one run): mean position error 10.2 m (N=1000) / 8.5 m (N=5000),
 mean attitude error 1.1°. Our attitude error is the full 3-D rotation angle, which includes the
