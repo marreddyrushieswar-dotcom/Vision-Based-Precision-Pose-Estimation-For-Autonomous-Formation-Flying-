@@ -151,4 +151,4 @@ For any further changes, record **what changed, why it changed, how it was teste
 ## Reference
 
 - Research paper: R. Punnoose, “Vision-Based Precision Pose Estimation for Autonomous Formation Flying.”
-- Reference implementation: [siddhardha-06/Autonomous-Formation-Flying](https://github.com/siddhardha-06/Autonomous-Formation-Flying).
+.
