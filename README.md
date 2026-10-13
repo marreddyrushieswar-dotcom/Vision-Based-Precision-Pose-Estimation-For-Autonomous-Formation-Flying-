@@ -3,7 +3,7 @@
 
 This repository contains a re-implementation of **“Vision-Based Precision Pose Estimation for Autonomous Formation Flying”** by R. Punnoose (Stanford), prepared for the UE24CS352A Machine Learning mini-project.
 
-**Project origin and attribution:** This implementation is based on the reference project by [siddhardha-06](https://github.com/siddhardha-06/Autonomous-Formation-Flying) and the research paper credited above. The implementation and reported results should be treated as a reproduction/extension of that work, not as an entirely original algorithm. Any future changes or experiments should be documented in the sections below.
+**Project origin and attribution:** This implementation is based on the reference project by https://github.com/marreddyrushieswar-dotcom/Vision-Based-Precision-Pose-Estimation-For-Autonomous-Formation-Flying-/edit/main/README.md and the research paper credited above. The implementation and reported results should be treated as a reproduction/extension of that work, not as an entirely original algorithm. Any future changes or experiments should be documented in the sections below.
 
 A follower aircraft estimates the relative pose of a leader from 14 structural features supplied by a simulated detector.
 
